@@ -1,0 +1,16 @@
+.guess--quiz{
+  width: 30%;
+  margin: 100px auto 0;
+  
+}
+.guess--quiz .container{
+  width: 100%;
+}
+.guess--quiz .container .user__curr--guess{
+  margin-top: 20px;
+}
+.guess--quiz .container .last__result{
+  font-size: 20px;
+  line-height: 1.9;
+  background-color: #d18063;
+}

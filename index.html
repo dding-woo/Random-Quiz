@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+  <title>숫자맞추기</title>
+</head>
+
+<body>
+  <div class="guess--quiz">
+    <div class="container">
+      <h1>Number guessing game</h1>
+      <p>We has seleceted random number between 1 and 100. See if
+        you can guess it in 10 turns Or less, We'll tell you if your guess
+        was too high or too low.
+      </p>
+      <div class="guess__container">
+        <span>Eenter a guess:</span>
+        <input type="text" class="guess__input">
+        <button type="summit" class="guess__btn">summit guess</button>
+      </div>
+      <div class="userhelp">
+        <div class="turn__container">
+          <span class="user__turn"></span>
+        </div>
+        <div class="user__curr--guess">
+          <span>previous guesses:</span>
+          <span class="user__guess">10 20 30</span>
+        </div>
+        <p class="last__result">worng!</p>
+      </div>
+      <p>Last guess was too high!</p>
+      <div class="restart">
+        <button class="restart__btn">Start New Game</button>
+      </div>
+    </div>
+
+  </div>
+</body>
+
+</html>
