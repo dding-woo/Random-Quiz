@@ -14,3 +14,9 @@
   line-height: 1.9;
   background-color: #d18063;
 }
+.user--hint{
+  display: none;
+}
+.restart__btn{
+  display: none;
+}
